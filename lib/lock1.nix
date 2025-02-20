@@ -291,6 +291,7 @@ fix (self: {
     in
     {
       version,
+      revision ? null, # Unused, but output by uv.
       requires-python,
       manifest ? { },
       package ? [ ],
